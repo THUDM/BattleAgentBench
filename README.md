@@ -16,7 +16,7 @@ First, execute the following command to install the necessary dependencies.
 python setup.py develop
 ```
 
-Second, test the installation. First, use the following command to start the game server. If executed successfully, you will see the game interface pop up.
+Second, test the installation. Use the following command to start the game server. If executed successfully, you will see the game interface pop up.
 
 ```sh
 python -m battle_city.server_sync  --turn-off-after-end --map s1

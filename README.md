@@ -6,6 +6,9 @@ This repository contains information and code of BattleAgentBench: A Benchmark f
 
 BattleAgentBench consists of two main parts: stage design and agent interaction. In stage design, we design seven stages of three different difficulty levels. In agent interaction, we implement interactions between agents and servers to support evaluation in the above stages.
 
+![](./images/methodv3.png)
+![](./images/game2.png)
+
 Next, we will introduce how to evaluate LLMs on BattleAgentBench.
 
 ## Install
@@ -48,6 +51,21 @@ Second, metric calculation. We calculate the score for each game, then aggregate
 cd examples
 python compute_metric.py
 python compute_summary.py
+```
+
+## Citation
+
+If you find our work helpful, please kindly cite our paper:
+
+```
+@misc{wang2024battleagent,
+      title={BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems}, 
+      author={Wei Wang and Dan Zhang and Tao Feng and Boyan Wang and Jie Tang},
+      year={2024},
+      eprint={2408.15971},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Acknowledgement

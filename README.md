@@ -1,6 +1,6 @@
 # BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems
 
-This repository contains information and code of BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems.
+This repository contains information and code of [BattleAgentBench](https://arxiv.org/abs/2408.15971): A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems.
 
 ## Introduction
 

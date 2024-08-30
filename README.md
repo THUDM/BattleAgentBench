@@ -31,11 +31,22 @@ Then use the following command to start a random agent. If executed successfully
 python -m battle_city.examples.client_test  --sync
 ```
 
-Third, you need to configure the key used to call the LLM. For OpenAI models, please configure the corresponding key in `battle_city/examples/agent/model/gpt.py`. For evaluating open-source small language models, such as glm4-9b, we recommend using the API provided by siliconflow, which offers free access to open-source small language models. Please configure the corresponding key in `battle_city/examples/agent/model/silicon.py`.
-
-## Evaluation Pipline
+## Playing Game with LLMs
 
 The game runs on a server with a game window and listens for agents. Each agent is a separate client (tank) connected to the game server. The agents control their tanks by sending actions to the server. The game starts when all agents' connections are established.
+
+First, you need to configure the key used to call the LLM. For OpenAI models, please configure the corresponding key in `battle_city/examples/agent/model/gpt.py`. For evaluating open-source small language models, such as glm4-9b, we recommend using the API provided by siliconflow, which offers free access to open-source small language models. Please configure the corresponding key in `battle_city/examples/agent/model/silicon.py`.
+
+Second, start the game server and client using the following two commands respectively:
+
+```sh
+python -m battle_city.server_sync  --turn-off-after-end --map s1
+python -m battle_city.examples.client  --sync --model glm4-9b
+```
+
+All available maps are shown in `basic.py`, and all available models are shown in `battle_city/examples/agent/model/__init__.py`.
+
+## Evaluation
 
 First, using LLM to play games. For convenience in evaluation, we have placed server startup, clients startup, and parameter configuration into a single script, so you only need to run one script to run games.
 

@@ -69,13 +69,11 @@ python compute_summary.py
 If you find our work helpful, please kindly cite our paper:
 
 ```
-@misc{wang2024battleagent,
-      title={BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems}, 
-      author={Wei Wang and Dan Zhang and Tao Feng and Boyan Wang and Jie Tang},
-      year={2024},
-      eprint={2408.15971},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{wang2024battleagentbench,
+  title={BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems},
+  author={Wang, Wei and Zhang, Dan and Feng, Tao and Wang, Boyan and Tang, Jie},
+  journal={arXiv preprint arXiv:2408.15971},
+  year={2024}
 }
 ```
 

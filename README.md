@@ -64,19 +64,6 @@ python compute_metric.py
 python compute_summary.py
 ```
 
-## Citation
-
-If you find our work helpful, please kindly cite our paper:
-
-```
-@article{wang2024battleagentbench,
-  title={BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems},
-  author={Wang, Wei and Zhang, Dan and Feng, Tao and Wang, Boyan and Tang, Jie},
-  journal={arXiv preprint arXiv:2408.15971},
-  year={2024}
-}
-```
-
 ## Acknowledgement
 
 The game used by BattleAgentBench is based on and modified from `battle-city-ai`. We would like to express our sincere gratitude to the creators and contributors for their excellent work. For more information about the original game, please visit: [battle-city-ai](https://github.com/firemark/battle-city-ai)
